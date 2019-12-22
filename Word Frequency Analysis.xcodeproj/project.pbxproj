@@ -12,6 +12,7 @@
 		8A19AF4522C5FA650043CFD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A19AF4322C5FA650043CFD8 /* Main.storyboard */; };
 		8A19AF4722C5FA670043CFD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A19AF4622C5FA670043CFD8 /* Assets.xcassets */; };
 		8A19AF4A22C5FA670043CFD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A19AF4822C5FA670043CFD8 /* LaunchScreen.storyboard */; };
+		8A19AF5422C61A9B0043CFD8 /* AnalysisModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A19AF5322C61A9B0043CFD8 /* AnalysisModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8A19AF4622C5FA670043CFD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A19AF4922C5FA670043CFD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A19AF4B22C5FA670043CFD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A19AF5322C61A9B0043CFD8 /* AnalysisModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +58,29 @@
 			children = (
 				8A19AF3F22C5FA650043CFD8 /* AppDelegate.swift */,
 				8A19AF4122C5FA650043CFD8 /* ViewController.swift */,
+				8A19AF5222C61A690043CFD8 /* Model */,
+				8A19AF5122C61A590043CFD8 /* ViewControllers */,
 				8A19AF4322C5FA650043CFD8 /* Main.storyboard */,
 				8A19AF4622C5FA670043CFD8 /* Assets.xcassets */,
 				8A19AF4822C5FA670043CFD8 /* LaunchScreen.storyboard */,
 				8A19AF4B22C5FA670043CFD8 /* Info.plist */,
 			);
 			path = "Word Frequency Analysis";
+			sourceTree = "<group>";
+		};
+		8A19AF5122C61A590043CFD8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8A19AF5222C61A690043CFD8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8A19AF5322C61A9B0043CFD8 /* AnalysisModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A19AF5422C61A9B0043CFD8 /* AnalysisModel.swift in Sources */,
 				8A19AF4222C5FA650043CFD8 /* ViewController.swift in Sources */,
 				8A19AF4022C5FA650043CFD8 /* AppDelegate.swift in Sources */,
 			);
